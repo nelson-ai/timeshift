@@ -16,6 +16,8 @@ function timeshift(...args) {
   FakeDate.now = () => OriginalDate.now() - diff;
 
   Date = FakeDate;
+
+  return OriginalDate;
 }
 
 module.exports = timeshift;
