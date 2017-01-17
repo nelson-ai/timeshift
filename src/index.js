@@ -2,7 +2,7 @@ const OriginalDate = Date;
 
 function timeshift(...args) {
 
-  if (!args.length) return Date = OriginalDate;
+  if (!args.length || args[0] === null || typeof args[0] === 'undefined') return Date = OriginalDate;
 
   const diff = OriginalDate.now() - new OriginalDate(...args).getTime();
 
