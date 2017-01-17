@@ -1,0 +1,6 @@
+{
+  "extends": "nelson",
+  "rules": {
+    "no-global-assign": 0
+  }
+}

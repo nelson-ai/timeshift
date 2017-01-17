@@ -1,0 +1,27 @@
+{
+  "name": "@nelson/timeshift",
+  "version": "0.0.0",
+  "description": "Time shifting in JavaScript",
+  "author": "Nelson-ai",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelson-ai/timeshift.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nelson-ai/timeshift/issues"
+  },
+  "homepage": "https://github.com/nelson-ai/timeshift#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.1",
+    "eslint-config-nelson": "^0.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
