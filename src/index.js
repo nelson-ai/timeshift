@@ -1,9 +1,10 @@
 const OriginalDate = Date;
 
 function timeshift(...args) {
-
+  // Nil argument means reset
   if (!args.length || args[0] === null || typeof args[0] === 'undefined') return Date = OriginalDate;
 
+  // Create fake Date object
   const diff = OriginalDate.now() - new OriginalDate(...args).getTime();
 
   class FakeDate extends OriginalDate {
@@ -15,6 +16,7 @@ function timeshift(...args) {
 
   FakeDate.now = () => OriginalDate.now() - diff;
 
+  // Assign global variable (!)
   Date = FakeDate;
 
   return OriginalDate;
