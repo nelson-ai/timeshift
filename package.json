@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Time shifting in JavaScript",
   "author": "David Hérault <dherault@nelson.ai> (https://github.com/dherault)",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha $npm_package_options_mocha",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/nelson-ai/timeshift#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.11.16",
     "eslint": "^3.13.1",
     "eslint-config-nelson": "^0.2.0",
     "eslint-plugin-import": "^2.2.0",

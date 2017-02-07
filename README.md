@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/timeshift.svg)](https://www.npmjs.com/package/timeshift)
 [![Build Status](https://travis-ci.org/nelson-ai/timeshift.svg?branch=master)](https://travis-ci.org/nelson-ai/timeshift)
+[![Coverage Status](https://coveralls.io/repos/github/nelson-ai/timeshift/badge.svg?branch=master)](https://coveralls.io/github/nelson-ai/timeshift?branch=master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 Time shifting in JavaScript.
